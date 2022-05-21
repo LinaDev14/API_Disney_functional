@@ -1,4 +1,4 @@
 package com.example.api_disney.domain.dtos;
 
-public class CharacterDTO {
+public class CategoryImageDTO {
 }
