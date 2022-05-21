@@ -10,12 +10,12 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Character {
 
     @Id
-    private String characterId;
+    private final String characterId;
 
-    private Image image;
-    private String characterName;
-    private Integer characterAge;
-    private Float characterWeight;
-    private String characterStory;
+    private final CharacterImage characterImage;
+    private final String characterName;
+    private final Integer characterAge;
+    private final Float characterWeight;
+    private final String characterStory;
 
 }

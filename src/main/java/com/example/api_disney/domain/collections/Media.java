@@ -13,12 +13,12 @@ import java.time.LocalDate;
 public class Media {
 
     @Id
-    private String mediaId;
-
-    private String mediaTitle;
+    private final String mediaId;
+    private final String categoryId;
+    private final String mediaTitle;
 
     @JsonFormat(pattern = "dd-MM-yyyy")
-    private LocalDate date;
-    private Rating rating;
+    private final LocalDate date;
+    private final Rating rating;
 
 }

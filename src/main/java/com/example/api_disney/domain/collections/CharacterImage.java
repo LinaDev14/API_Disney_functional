@@ -6,9 +6,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
 @Document
-public class Image {
+public class CharacterImage {
 
     @Id
-    private String ImageId;
-    private Byte[] image;
+    private final String characterImageId;
+    private final Byte[] characterImage;
 }

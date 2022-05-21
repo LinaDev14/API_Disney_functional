@@ -4,14 +4,11 @@ import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-
-@Data
 @Document
-public class Category {
+@Data
+public class CategoryImage {
 
     @Id
-    private final String categoryId;
-    private final String categoryName;
-
-
+    private final String categoryImageId;
+    private final Byte[] categoryImage;
 }
