@@ -12,7 +12,6 @@ public class Character {
     @Id
     private final String characterId;
 
-    private final CharacterImage characterImage;
     private final String characterName;
     private final Integer characterAge;
     private final Float characterWeight;

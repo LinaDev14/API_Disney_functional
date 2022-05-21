@@ -1,6 +1,5 @@
 package com.example.api_disney.domain.dtos;
 
-import com.example.api_disney.domain.collections.CharacterImage;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
