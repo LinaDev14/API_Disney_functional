@@ -1,4 +1,7 @@
 package com.example.api_disney.domain.repositories;
 
-public interface CategoryImageInterface {
+import com.example.api_disney.domain.collections.CategoryImage;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface CategoryImageInterface extends MongoRepository<CategoryImage, String> {
 }
