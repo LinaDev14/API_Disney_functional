@@ -18,4 +18,16 @@ public class CharacterMapper {
                 character.getCharacterStory()
         );
     }
+
+
+    public Function<CharacterInDTO, Character> mapToCharacter(){
+        return characterInDTO -> new Character(
+                null,
+                characterInDTO.getCharacterName(),
+                characterInDTO.getCharacterAge(),
+                characterInDTO.getCharacterWeight(),
+                characterInDTO.getCharacterStory()
+
+        );
+    }
 }
