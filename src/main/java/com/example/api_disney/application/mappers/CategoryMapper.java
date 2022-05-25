@@ -15,4 +15,11 @@ public class CategoryMapper {
                 category.getCategoryName()
         );
     }
+
+    public Function<CategoryDTO, Category> mapToCategory(){
+        return categoryDTO -> new Category(
+                null,
+                categoryDTO.getCategoryName()
+        );
+    }
 }
