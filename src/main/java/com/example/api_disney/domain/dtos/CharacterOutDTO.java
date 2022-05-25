@@ -13,7 +13,6 @@ public class CharacterOutDTO {
 
     private String characterId;
 
-    private CharacterImage characterImage;
     private String characterName;
     private Integer characterAge;
     private Float characterWeight;
